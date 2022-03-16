@@ -1,0 +1,64 @@
+h1 {
+  color: blue;
+}
+#happy-anniv {
+  background-color: aqua;
+}
+
+.module {
+  background-color: yellow;
+  color: red;
+}
+
+div h2 {
+  color: rgb(224, 64, 152);
+}
+
+div h1 {
+  color: violet;
+  background-color: black;
+}
+
+/* Element */
+div > p {
+  background-color: cadetblue;
+}
+
+/*id & class */
+#joko .pakde {
+  background-color: aqua;
+}
+
+div + p {
+  color: brown;
+}
+
+.general-sibling ~ p {
+  color: brown;
+}
+
+/* unvisited link */
+a:link {
+  color: brown;
+}
+/* visited link */
+a:visited {
+  color: rebeccapurple;
+}
+/* mouse over link */
+a:hover {
+  color: aqua;
+}
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+}
+
+:nth-child(3) {
+  color: tomato;
+}

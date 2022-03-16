@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Latihan CSS</title>
+</head>
+<body>
+    <h1>Sigit Prihatmoko</h1>
+    <div id="happy-anniv">
+        <h2>instructur</h2>
+    </div>
+    <div class="module">
+        <h2>Nama saya Sigit</h2>
+        <h1>Kelas saya FE - 5</h1>
+    </div>
+
+    <div>
+        <p>Paragraph 1 in the div.</p>
+      </div>
+      <!-- Will NOT match -->
+      <div>
+        <section><p>Paragraph 2 in the div (inside a section element).</p></section>
+      </div>
+
+      <div id="joko">
+          <h1>nama saya jokowi</h1>
+          <h2 class="pakde">jokowi pakdeku</h2>
+      </div>
+
+      <div>
+        <a>Anchor</a>
+      </div>
+      <p>WILL match this Paragraph</p>
+      <p>Will NOT match this Paragraph</p>
+
+
+      <p>Will NOT match this Paragraph</p>
+<div class="general-sibling">
+  <p>Will NOT match this Paragraph</p>
+</div>
+<p>WILL match this Paragraph</p>
+<p>WILL match this Paragraph</p>
+
+<p><a href="default.asp" target="_blank">This is a link</a></p>
+
+<p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+
+<ul>
+    <li>nope</li>
+    <li>nope</li>
+    <!-- WILL match -->
+    <li>yep, I'm #3</li>
+  </ul>
+  
+</body>
+</html>
