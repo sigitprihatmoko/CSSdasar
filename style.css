@@ -62,3 +62,33 @@ a.highlight:hover {
 :nth-child(3) {
   color: tomato;
 }
+
+p::first-line {
+  color: #4400ff;
+}
+
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+
+h1::before {
+  content: url(smiley.png);
+}
+
+h1::after {
+  content: url(smiley.png);
+}
+
+a[target="_blank"] {
+  background-color: red;
+}
+
+[title~="flower"] {
+  width: 100px;
+  height: 100px;
+}
+
+[class|="top"] {
+  color: yellow;
+}
